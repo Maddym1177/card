@@ -1,0 +1,10 @@
+*{
+    margin: 10px;
+    border: 10px;
+}
+.container-fluid{
+    background-image: url('./image/backgorund2.jpg');
+    height: 100%;
+    width: 100%;
+
+}
