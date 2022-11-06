@@ -2,7 +2,9 @@
     margin: 10px;
     border: 10px;
 }
-
+.card{
+    width: 30rem;
+}
 h1{
     margin-left: 5rem;
 }
@@ -15,10 +17,19 @@ h1{
 
 .profile {
     height: 15rem;
-    width: 15rem;
+    width: auto;
     border-radius: 50%;
     margin: 108px 0px 0px 120px;
+
 }
+
+.profile:hover {
+    height: 18rem;
+    width: auto;
+    border-radius: 50%;
+    margin: 83px 0px 0px 95px;
+
+} 
 
 .heading {
     margin-top: 2rem;
@@ -29,8 +40,11 @@ h1{
     
 }
 
-h4:hover {
+.h4:hover {
+    font-size: 30px;
    -webkit-text-fill-color: blue;
   }
 
-  
+@keyframes popUp {
+    
+}
